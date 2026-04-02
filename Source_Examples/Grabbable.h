@@ -20,7 +20,7 @@ enum class EGrabbableMeshComponentType : uint8
 };
 
 UCLASS(Blueprintable, BlueprintType)
-class WP_LINE_COOK_API AGrabbable : public AActor
+class [REDACTED]_API AGrabbable : public AActor
 {
 	GENERATED_BODY()
 	
