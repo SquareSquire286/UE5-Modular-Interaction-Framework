@@ -1,7 +1,7 @@
 # UE5 Modular Interaction Framework (C++ / Blueprint)
 
 ## Overview
-This repository contains a modular object interaction framework developed in Unreal Engine 5 using C++ with Blueprint integration. The system was originally created for commercial VR training simulations and was designed to support reusable interaction logic across multiple simulation scenarios.
+This repository contains a modular object interaction framework developed in Unreal Engine 5 using C++ with Blueprint integration. The system was originally created for a **restaurant-focused commercial VR training simulation**, but was designed to support reusable interaction logic across multiple simulation scenarios.
 
 The framework is built around a base **Grabbable** actor and extended using the **Decorator design pattern** to support runtime composition of object behaviors such as slicing, cooking, and stacking.
 
