@@ -74,6 +74,17 @@ For a detailed explanation of the architecture and design decisions, see:
 
 ---
 
+## Video Demonstration
+
+Example footage from the commercial VR training platform where this interaction system was originally developed can be viewed here:
+
+[Melcher Studios VR Training Platform Demonstration – LinkedIn](https://www.linkedin.com/posts/melcher-media-%26-design_vr-line-cook-experince-activity-7315833719359975424-wQMS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC0n-xMBNpdvPZxJUcwuAdnBTd3wzW-n0eQ)
+
+> Note: This video is publicly available marketing material published by Melcher Studios. 
+All proprietary source code and internal implementation details are omitted from this repository.
+
+---
+
 ## About
 This interaction framework was originally developed as part of a commercial VR training platform and was designed to support reusable interaction systems across multiple simulation environments, including food preparation, lab work, and equipment training scenarios.
 
