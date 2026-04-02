@@ -8,7 +8,7 @@
 #include "CookableDecorator.generated.h"
 
 UCLASS(Blueprintable, BlueprintType)
-class WP_LINE_COOK_API ACookableDecorator : public AGrabbable
+class [REDACTED]_API ACookableDecorator : public AGrabbable
 {
 	GENERATED_BODY()
 	
