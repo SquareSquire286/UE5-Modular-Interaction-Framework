@@ -76,7 +76,8 @@ For a detailed explanation of the architecture and design decisions, see:
 - Modular object behaviors (sliceable, cookable, stackable)  
 - Designer-friendly Blueprint integration  
 - Support for VR physics interaction  
-- Maintainable and extensible architecture  
+- Maintainable and extensible architecture
+- Seamless navigation between Blueprint and C++ classes
 
 ---
 
@@ -84,3 +85,11 @@ For a detailed explanation of the architecture and design decisions, see:
 This interaction framework was originally developed as part of a commercial VR training platform and was designed to support reusable interaction systems across multiple simulation environments, including food preparation, lab work, and equipment training scenarios.
 
 The repository is presented as a **technical case study** demonstrating system architecture, object-oriented design, Unreal Engine C++ development, and Blueprint integration for interactive simulation systems.
+
+---
+
+## Additional Technical Documentation
+
+Additional documentation describing Blueprint and C++ integration workflows used in this system can be found in:
+
+**Docs/Blueprint_Cpp_Workflows/**
