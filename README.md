@@ -7,8 +7,6 @@ The framework is built around a base **Grabbable** actor and extended using the 
 
 A key feature of this system is a **procedural mesh slicing system**, which allows objects to be cut into multiple pieces at runtime while maintaining physics interaction and compatibility with other gameplay systems.
 
-> **Note:** Portions of this system were developed as part of a commercial VR training platform. Some implementation details cannot be publicly released. This repository focuses on system architecture, design patterns, documentation, and representative source code demonstrating the core interaction framework.
-
 ---
 
 ## Features
@@ -66,11 +64,6 @@ For a detailed explanation of the architecture and design decisions, see:
 
 ---
 
-## Video Demonstration
-*(Insert slicing and cooking video here)*
-
----
-
 ## Design Goals
 - Reusable interaction logic across multiple simulation modules  
 - Modular object behaviors (sliceable, cookable, stackable)  
@@ -93,3 +86,14 @@ The repository is presented as a **technical case study** demonstrating system a
 Additional documentation describing Blueprint and C++ integration workflows used in this system can be found in:
 
 **Docs/Blueprint_Cpp_Workflows/**
+
+---
+
+## Legal Notice
+
+This repository contains a reconstructed and simplified version of a modular interaction framework originally developed as part of a commercial VR training platform.
+
+Due to non-disclosure agreements (NDAs), this repository does **not** contain the original project source code. 
+Instead, it contains representative example code, architecture documentation, and technical explanations that demonstrate the design and engineering approach used in the system.
+
+All proprietary assets, full implementations, and internal tools from the original project are excluded.
