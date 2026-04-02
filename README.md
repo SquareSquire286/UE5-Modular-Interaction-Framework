@@ -24,6 +24,21 @@ A key feature of this system is a **procedural mesh slicing system**, which allo
 
 ---
 
+## Technical Highlights
+
+This project demonstrates several software engineering and real-time simulation concepts:
+
+- Object-Oriented Programming (OOP) in Unreal Engine C++
+- Decorator design pattern for modular runtime behavior composition
+- Blueprint ↔ C++ integration for hybrid designer/programmer workflows
+- Procedural mesh generation and runtime mesh modification
+- Physics-based VR interaction systems
+- Event-driven architecture using delegates
+- Dynamic material instance management for object state changes
+- Reusable interaction systems across multiple simulation environments
+
+---
+
 ## System Architecture
 
 The system is built around a base **Grabbable** class that defines core interaction behavior. Additional functionality is added through decorator classes that extend behavior without duplicating logic.
@@ -82,36 +97,8 @@ This hybrid C++/Blueprint workflow was used in production VR training simulation
 
 ---
 
-## Repository Structure
-ue5-modular-interaction-framework/
-│
-├── README.md
-├── Docs/
-│ ├── Stackable_Component.pdf
-│ ├── Sliceable_Component.pdf
-│ ├── UML_Diagram.png
-│ ├── Architecture_Explanation.md
-│
-├── Source_Examples/
-│ ├── Grabbable.h
-│ ├── Grabbable.cpp
-│ ├── CookableDecorator.h
-│ ├── CookableDecorator.cpp
-│
-├── Media/
-│ ├── slicing_demo.mp4
-│ ├── cooking_demo.mp4
----
-
----
-
 ## Video Demonstration
 *(Insert slicing and cooking video here)*
-
-Suggested clips:
-- Procedural mesh slicing
-- Cooking state change on grill
-- Physics-based grabbing interaction
 
 ---
 
