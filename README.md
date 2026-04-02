@@ -1,7 +1,7 @@
 # UE5 Modular Interaction Framework (C++ / Blueprint)
 
 ## Overview
-This repository contains a modular object interaction framework developed in Unreal Engine 5 using C++ with Blueprint integration. The system was originally created for a **restaurant-focused commercial VR training simulation**, but was designed to support reusable interaction logic across multiple simulation scenarios.
+This repository contains a modular object interaction framework developed in Unreal Engine 5 using C++ with Blueprint integration. This interaction framework was originally developed as part of a commercial VR training platform and was designed to support reusable interaction systems across multiple simulation environments, including food preparation, lab work, and equipment training scenarios. The repository is presented as a **technical case study** demonstrating system architecture, object-oriented design, Unreal Engine C++ development, and Blueprint integration for interactive simulation systems.
 
 The framework is built around a base **Grabbable** actor and extended using the **Decorator design pattern** to support runtime composition of object behaviors such as slicing, cooking, and stacking.
 
@@ -85,10 +85,17 @@ All proprietary source code and internal implementation details are omitted from
 
 ---
 
-## About
-This interaction framework was originally developed as part of a commercial VR training platform and was designed to support reusable interaction systems across multiple simulation environments, including food preparation, lab work, and equipment training scenarios.
+## My Contributions
 
-The repository is presented as a **technical case study** demonstrating system architecture, object-oriented design, Unreal Engine C++ development, and Blueprint integration for interactive simulation systems.
+My work on this system included:
+
+- Design and implementation of the procedural mesh slicing system
+- Implementation of the Stackable and Cookable decorator systems
+- Development of the base Grabbable interaction framework
+- Implementation of Blueprint ↔ C++ interaction architecture
+- Runtime mesh conversion from Static Mesh to Procedural Mesh
+- Physics handling for dynamically spawned sliced objects
+- Technical documentation for Blueprint/C++ integration workflows
 
 ---
 
